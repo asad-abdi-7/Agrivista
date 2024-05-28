@@ -1,0 +1,212 @@
+@media screen and (max-width: 600px){
+    .header ul{
+        display:none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    #menue{
+        display: block;
+        font-size: 35px;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .header{
+        padding: 17px;
+    }
+
+    .hero{
+        height: 250px;
+        background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://png.pngtree.com/background/20210710/original/pngtree-fashion-and-creativity-promote-sports-sports-board-background-picture-image_1007076.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 250px;
+        text-align: center;
+        padding: 10px;
+        color:white;
+    }
+
+    .hero h1{
+        font-size: 16px;
+       padding-bottom:2px;
+       /* text-align: justify; */
+    }
+
+    .hero p{
+        padding-bottom: 9px;
+        font-size: 14px;
+        
+    }
+
+    
+    #lg{
+        margin-bottom:10px;
+    }
+    #more{
+        margin-right: 37px;
+        font-size: 27px;
+    }
+
+    /* .sports_parents */
+    .sports_parents{
+        flex-direction: column;
+        margin:11px;
+    }
+    .left, .right{
+        width: 400px;
+    }
+
+    .left h1{
+        font-size: 30px;
+    }
+    /* .left p{
+        font-size: 20px;
+    } */
+
+    .right img{
+        width:370px ;
+        margin-top: 30px;
+        height: 330px;
+    }
+
+
+    /* footballer */
+    .footballer{
+    }
+    .footballer p{
+       font-size: 17px;
+       margin: 20px 0;
+    }
+
+    .footballer-parent{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 30px;
+    }
+
+    .foot1 h1{
+        padding-top: 16px;
+        font-size: 20px;
+    }
+    /* product */
+    .produc_parent{
+        grid-template-columns: 280px;
+        row-gap: 20px;
+       }
+
+       .product1{
+        color: white;
+       }
+
+       /* sustian */
+    .sustian h1{
+        font-size: 27px;
+    }
+
+    #lg{
+        margin-bottom:10px;
+        margin-left: 10px;
+    }
+    .Signup{
+        
+        font-size: 20px;
+    }
+    /* benefi_parent */
+    .benefi_parent{
+        display: flex;
+        flex-direction: column;
+        margin:10px 20px;
+
+    }
+
+    .benefi_left{
+        width: 390px;
+    }
+    .benefi_right{
+        width: 350px;
+    }
+
+
+    .benefi_left h1{
+        font-size: 28px;
+    }
+
+    /* Testimonials */
+    /* .Testimonials h1{
+        font-size: 40px;
+    } */
+    /* .Testimonials p{
+        font-size:18px;
+    } */
+    /* .test1, .test2{
+        display: none;
+    } */
+    /* .test_parent{
+        grid-template-columns: 400px;
+        row-gap:20px ;
+        flex-direction: column;
+        padding: 50px 0px;
+        margin: 0;
+      }
+
+      .test_left img{
+       padding-left: 2000px;
+        height: none;
+        padding-top:10px;
+        padding-right: 90px;
+        width: 190px;
+        border-radius: 12px;
+
+     } */
+
+     /* section2 */
+     .section2 h6{
+        font-size: 14px;
+
+    } 
+
+    .section2_parent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-left:20px ;
+    }
+
+
+    /* .footer */
+
+    /* .footer{
+        width: 388px;
+    } */
+
+    .footer_parent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+        padding: 30px 0;
+    }
+    .footer_left1 h1{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+     }
+
+     .footer_left1 p{
+        font-size: 14px;
+        text-align: center;
+     }
+     .footer_left2{
+        text-align: center;
+        margin-top: -17px;
+     }
+
+     .footer_right{
+        gap: 70px;
+        padding: 10px 0;
+        margin-right: 60px;
+
+     }
+}
